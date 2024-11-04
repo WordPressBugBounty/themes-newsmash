@@ -1,7 +1,7 @@
 /*
 Theme Name: 	   NewsMash
 Text Domain: 	   newsmash
-Version:            1.0.66
+Version:            1.0.67
 Tested up to:       6.6
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -264,4 +264,8 @@ table.wc-block-cart-items .wc-block-components-product-price {
 
 .widget.widget_shopping_cart a:before {
     display:none
+}
+
+.widget .wc-block-grid__products a:before {
+    display: none;
 }
