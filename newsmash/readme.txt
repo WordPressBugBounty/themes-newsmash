@@ -1,9 +1,9 @@
 === NewsMash ===
 Contributors: DesertThemes
 Requires at least: 4.7
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.69
+Stable tag: 1.0.70
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, e-commerce, entertainment, grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, featured-images, featured-image-header, flexible-header, post-formats, rtl-language-support, translation-ready, theme-options, threaded-comments, footer-widgets
@@ -75,6 +75,9 @@ https://pxhere.com/en/photo/820723 , https://stocksnap.io/photo/guy-man-67XJ0EMX
 License: Creative Commons Zero, CC0 Public Domain
 
 == Changelog ==
+
+@version 1.0.70
+* Tested - By WordPress 6.7
 
 @version 1.0.69
 * Updated - WooCommerce Template Files
