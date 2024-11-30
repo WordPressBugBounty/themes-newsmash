@@ -386,7 +386,7 @@ if (!function_exists('newsmash_common_post_author')):
     function newsmash_common_post_author()
     {
 		$user = wp_get_current_user(); ?>
-		<li class="list-inline-item"><a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><img src="<?php echo esc_url( get_avatar_url( get_the_author_meta( 'ID' ) ) ); ?>" width="32" height="32" class="author" alt="<?php esc_attr(the_author()); ?>"/><?php esc_html(the_author()); ?></a></li>
+		<li class="list-inline-item"><a href="<?php echo esc_url(get_author_posts_url( absint(get_the_author_meta( 'ID' )) ));?>"><img src="<?php echo esc_url( get_avatar_url( absint(get_the_author_meta( 'ID' ) )) ); ?>" width="32" height="32" class="author" alt="<?php esc_attr(the_author()); ?>"/><?php esc_html(the_author()); ?></a></li>
    <?php }
 add_action('newsmash_common_post_author','newsmash_common_post_author');	
 endif;

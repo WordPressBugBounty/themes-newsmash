@@ -25,7 +25,7 @@ function newsmash_theme_page_header_title(){
 		  printf( esc_html__( '%1$s %2$s', 'newsmash' ), esc_html__('Archives','newsmash'), get_the_date( 'Y' ) );
 		elseif( is_author() ):
 		/* translators: %1$s %2$s: author */	
-			printf( esc_html__( '%1$s %2$s', 'newsmash' ), esc_html__('All posts by','newsmash'), get_the_author() );
+			printf( esc_html__( '%1$s %2$s', 'newsmash' ), esc_html__('All posts by','newsmash'), esc_html(get_the_author()) );
         elseif( is_category() ):
 		/* translators: %1$s %2$s: category */	
 			printf( esc_html__( '%1$s %2$s', 'newsmash' ), esc_html__('Category','newsmash'), single_cat_title( '', false ) );

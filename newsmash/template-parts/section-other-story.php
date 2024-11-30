@@ -41,7 +41,7 @@ $newsmash_hs_other_story_content_meta= get_theme_mod('newsmash_hs_other_story_co
 								<?php endif; ?> 
 								<ul class="meta list-inline dt-mt-0 dt-mb-0">
 									<?php if($newsmash_hs_other_story_auth_meta=='1'): ?>
-										<li class="list-inline-item"><a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><?php esc_html(the_author()); ?></a></li>
+										<li class="list-inline-item"><a href="<?php echo esc_url(get_author_posts_url( absint(get_the_author_meta( 'ID' )) ));?>"><?php esc_html(the_author()); ?></a></li>
 									<?php endif; ?>
 									
 									<?php if($newsmash_hs_other_story_date_meta=='1'): ?>

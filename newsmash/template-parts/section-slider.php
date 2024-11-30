@@ -40,7 +40,7 @@ $newsmash_slider_right_type		= get_theme_mod('newsmash_slider_right_type','style
 								?> 	
 								<ul class="meta list-inline dt-mt-0 dt-mb-0 dt-mt-3">
 									<?php if($newsmash_hs_slider_auth_meta=='1'): ?>
-										<li class="list-inline-item"><i class="far fa-user"></i> <?php esc_html_e('By','newsmash');?> <a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><?php esc_html(the_author()); ?></a></li>
+										<li class="list-inline-item"><i class="far fa-user"></i> <?php esc_html_e('By','newsmash');?> <a href="<?php echo esc_url(get_author_posts_url( absint(get_the_author_meta( 'ID' ) )));?>"><?php esc_html(the_author()); ?></a></li>
 									<?php endif; ?>	
 									
 									<?php if($newsmash_hs_slider_date_meta=='1'): ?>
