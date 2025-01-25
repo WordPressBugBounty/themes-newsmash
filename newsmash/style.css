@@ -1,7 +1,7 @@
 /*
 Theme Name: 	   NewsMash
 Text Domain: 	   newsmash
-Version:            1.0.79
+Version:            1.0.80
 Tested up to:       6.7
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -304,4 +304,8 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 
 .wc-block-mini-cart__footer span.wc-block-components-totals-item__label {
     font-size: 1.5rem;
+}
+
+.wc-block-mini-cart__footer .wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal .wc-block-components-totals-item__description {
+    font-size: 1.2rem;
 }
